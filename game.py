@@ -39,7 +39,7 @@ def main() -> None:
 
 def get_user_choice() -> str:
     while True: 
-        user_choice =  input("""
+        user_choice =  get_inputs("""
             1. Adding a task. 
             2. Show all tasks. 
             3. Deleting a task. 
